@@ -1,0 +1,50 @@
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: #343a40;
+    padding: 40px;
+    margin-top: 20px;
+}
+footer a {
+    color: #f8f9fa!important
+}
+.bgc{
+    background-image: url(image/Clothes+and+shoes-74_banner.jpg);
+}
+.show_txt{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+a .active{
+    color: white;
+}
+body {
+    background-color: dark;
+}
+
+.fa-3x {
+    font-size: 2em;
+    color: white;
+}
+
+.gradient-bg {
+    background: linear-gradient(to right, purple, blue);
+    color: white;
+}
+
+.gradient-bgtext {
+    font-size: 3em;
+    background-image: linear-gradient(to right, purple, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: color 2s;
+}
+
+.gradient-bgtext:hover {
+    color: blue;
+}
